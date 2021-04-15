@@ -1,0 +1,54 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+  margin: 2rem;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  background: #EBEBEB;
+  border-radius: 10px;
+  margin: 2rem;
+}
+
+.item {
+  flex-basis: 22%;
+  background: white;
+  flex-grow: 1;
+  font-size: 1rem;
+  padding: 2rem;
+  margin: 2rem 0rem 2rem 2rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #EBEBEB;
+}
+ 
+.container img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.monika{
+  margin-right: 2rem;
+  }
+  
+#logo{
+  width: 35px;
+  height: 35px;
+}
+
+.social img:hover {
+  background: gray;
+}
